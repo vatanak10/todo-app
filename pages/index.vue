@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto mt-4 max-w-sm text-gray-700">
+  <div class="container mx-auto mt-4 max-w-sm px-2 text-gray-700">
     <div class="text-center text-lg font-semibold">My Simple Todo App</div>
     <form @submit="addTodo">
       <label class="mb-1 block text-xs" for="todo-field"> New Todo </label>
