@@ -48,13 +48,12 @@
     </div>
     <SvgRemoveIcon
       class="svg-remove-icon cursor-pointer text-red-500 opacity-0 transition-all duration-200 ease-in-out"
-      @click="$emit('remove-todo', value.id)"
+      @click="$emit('removeTodo', value.id)"
     />
   </div>
 </template>
 
 <script lang="ts" setup>
-/* __placeholder__ */
 import type { TodoItem } from "~/types/index";
 
 const props = defineProps<{
